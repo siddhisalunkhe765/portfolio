@@ -48,7 +48,7 @@ export const SITE_CONTENT: SiteContent = {
       startDate: "2024",
       endDate: "2027",
       summary: [
-        "Pune University, Pune, Maharashtra",
+        "KBP University, Satara, Maharashtra",
         "Academic topper / merit scholarship recipient",
         "Active member of college tech/coding club",
       ],
