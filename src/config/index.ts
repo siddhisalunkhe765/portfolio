@@ -1,98 +1,101 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Siddhi Salunkhe — Software Developer",
+  author: "Siddhi Salunkhe",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Motivated BCA/BSc CS student seeking a software developer internship to apply full-stack skills across Java, Python, and JavaScript. Experienced in building AI-assisted web tools, RESTful APIs, and open-source contributions.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/siddhi-avatar.jpg",
   navLinks: [
-    { text: "Experience", href: "#experience" },
+    { text: "Skills", href: "#experience" },
     { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "Email", href: "mailto:siddhisalunkhe765@gmail.com" },
+    { text: "LinkedIn", href: "https://linkedin.com/in/siddhisalunkhe765" },
+    { text: "Github", href: "https://github.com/siddhisalunkhe765" },
   ],
   socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  canonicalURL: "https://siddhisalunkhe.vercel.app",
 };
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Siddhi Salunkhe",
+    specialty: "Software Developer",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "BCA/BSc CS student (graduating 2027) with full-stack skills in Java, Python, and JavaScript. Experienced in building AI-assisted web tools, RESTful APIs, and open-source contributions. Strong foundation in DSA and database design.",
+    email: "siddhisalunkhe765@gmail.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "Technical Skills",
+      position: "Languages & Frameworks",
+      startDate: "2024",
+      endDate: "Present",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Languages: Java, Python, JavaScript (ES6+), SQL, HTML5, CSS3",
+        "Frameworks: Flask, Astro, Bootstrap, Jupyter Notebook",
+        "Tools & Databases: Git & GitHub, MySQL, VS Code, Postman, REST APIs",
+        "Concepts: Data Structures & Algorithms, OOP, DBMS, MVC Architecture, Prompt Engineering",
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "Education",
+      position: "BCA / BSc Computer Science",
+      startDate: "2024",
+      endDate: "2027",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "Pune University, Pune, Maharashtra",
+        "Academic topper / merit scholarship recipient",
+        "Active member of college tech/coding club",
       ],
     },
     {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
+      company: "Certifications",
+      position: "Professional Development",
+      startDate: "2024",
+      endDate: "Present",
+      summary: [
+        "The Complete Python Bootcamp — Jose Portilla, Udemy",
+        "Java Programming Masterclass — Tim Buchalka, Udemy",
+        "Web Developer Bootcamp — Colt Steele, Udemy",
+        "SQL — MySQL for Data Analytics — 365 Data Science, Udemy",
+        "Currently pursuing — DSA in Java",
+      ],
     },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
+      name: "KrishiMitra",
+      summary: "AI-powered agricultural assistant providing crop recommendations, disease detection insights, and weather-based advisory using Python and ML models. Implemented NLP-based query handling and integrated open datasets for soil and climate analysis.",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      linkSource: "https://github.com/siddhisalunkhe765/KrishiMitra",
+      image: "/krishimitra.jpg",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
+      name: "Student Result Management System",
+      summary: "CRUD-based desktop application in Java with MySQL backend for managing student records, grades, and report generation. Applied JDBC for database connectivity with role-based access (admin/student).",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      linkSource: "https://github.com/siddhisalunkhe765",
+      image: "/student-result.jpg",
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
+      name: "Expense Tracker API",
+      summary: "RESTful backend API for personal expense tracking with endpoints for adding, categorizing, and summarizing transactions. Built with Flask and SQLite, featuring input validation and JSON responses.",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      linkSource: "https://github.com/siddhisalunkhe765",
+      image: "/expense-tracker.jpg",
     },
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
+      Hi, I'm Siddhi Salunkhe, a motivated BCA/BSc CS student from Pune, Maharashtra, graduating in 2027. I'm passionate about building impactful software solutions using Java, Python, and JavaScript.
 
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      I've contributed to open-source projects like KrishiMitra and participated in college hackathons where I built working prototypes under 24 hours. With 52+ GitHub stars across my projects and a strong foundation in DSA and database design, I'm always eager to learn and create innovative solutions. I'm actively seeking software developer internship opportunities to apply and expand my skills.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/siddhi-profile.jpg",
   },
 };
-
-// #5755ff
