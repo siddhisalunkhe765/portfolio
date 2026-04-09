@@ -4,7 +4,7 @@ export const SITE_CONFIG: SiteConfig = {
   title: "Siddhi Salunkhe — Software Developer",
   author: "Siddhi Salunkhe",
   description:
-    "Motivated BCA/BSc CS student seeking a software developer internship to apply full-stack skills across Java, Python, and JavaScript. Experienced in building AI-assisted web tools, RESTful APIs, and open-source contributions.",
+    "Motivated BSc CS student seeking a software developer internship to apply full-stack skills across Java, Python, and JavaScript. Experienced in building AI-assisted web tools, RESTful APIs, and open-source contributions.",
   lang: "en",
   siteLogo: "/siddhi-avatar.jpg",
   navLinks: [
@@ -26,7 +26,7 @@ export const SITE_CONTENT: SiteContent = {
     name: "Siddhi Salunkhe",
     specialty: "Software Developer",
     summary:
-      "BCA/BSc CS student (graduating 2027) with full-stack skills in Java, Python, and JavaScript. Experienced in building AI-assisted web tools, RESTful APIs, and open-source contributions. Strong foundation in DSA and database design.",
+      "BSc CS student (graduating 2027) with full-stack skills in Java, Python, and JavaScript. Experienced in building AI-assisted web tools, RESTful APIs, and open-source contributions. Strong foundation in DSA and database design.",
     email: "siddhisalunkhe765@gmail.com",
   },
   experience: [
@@ -44,7 +44,7 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       company: "Education",
-      position: "BCA / BSc Computer Science",
+      position: "BSc Computer Science",
       startDate: "2024",
       endDate: "2027",
       summary: [
@@ -92,7 +92,7 @@ export const SITE_CONTENT: SiteContent = {
   ],
   about: {
     description: `
-      Hi, I'm Siddhi Salunkhe, a motivated BCA/BSc CS student from Pune, Maharashtra, graduating in 2027. I'm passionate about building impactful software solutions using Java, Python, and JavaScript.
+      Hi, I'm Siddhi Salunkhe, a motivated BSc CS student from Satara, Maharashtra, graduating in 2027. I'm passionate about building impactful software solutions using Java, Python, and JavaScript.
 
       I've contributed to open-source projects like KrishiMitra and participated in college hackathons where I built working prototypes under 24 hours. With 52+ GitHub stars across my projects and a strong foundation in DSA and database design, I'm always eager to learn and create innovative solutions. I'm actively seeking software developer internship opportunities to apply and expand my skills.
     `,
